@@ -35,11 +35,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 a:hover {
-  color: antiquewhite;
+  color: #2b2bb2;
+  opacity: 0.3;
 }
 
 .lista {
