@@ -1,11 +1,22 @@
 body {
-  width: 60em;
+  display: flex;
+  flex-direction: row;
+  height: 50em;
   margin: 0 auto;
 }
 
 section {
-  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em;
   margin: 1em;
+  width: 200px;
+}
+
+
+p{
+  align-items: center;
 }
 
 #green {
@@ -29,12 +40,16 @@ section {
 }
 
 ul {
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
   padding: 0;
 }
 
 li {
   background-color: white;
-  padding: 1em;
+  padding: 1.5em;
   display: block;
-  margin: 1em;
+  margin: 0.6em;
 }
