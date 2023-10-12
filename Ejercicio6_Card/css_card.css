@@ -1,0 +1,129 @@
+.card{
+    width: 50%;
+    background-color: antiquewhite;
+    border: 1px solid darkmagenta;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container {
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    }
+    .imagen {
+    width: 100%;
+    height: auto;
+    }
+
+    .texto{
+        border-top: 1px solid darkmagenta;
+        border-bottom: 1px solid darkmagenta;
+        padding: 20px;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    .lista {
+        display: grid;
+    }
+
+    .lista ul{
+        display: grid;
+        grid-template-rows: repeat(3, 50px);
+        grid-template-columns: repeat(2,50%);
+        list-style: none;
+        padding-inline-start: 0px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .cook{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+        padding-left: 80px;
+        align-items: center;
+    }
+
+    .travel{
+        display: grid;
+        grid-row: 2;
+        padding-left: 80px;
+        grid-column: 1;
+        border-bottom: 1px solid darkmagenta;
+        align-items: center;
+    }
+    .decor{
+        display: grid;
+        grid-row: 3;
+        grid-column: 1;
+        padding-left: 80px;
+        border-bottom: 1px solid darkmagenta;
+        align-items: center;
+    }
+
+    .svgfood {
+        display: grid;
+        height: 50px;
+        width: 50px;
+        grid-row: 1;
+        grid-column: 1;
+       align-items: start;
+       padding-left: 20px;
+    }
+
+    .svgtravel {
+        display: grid;
+        height: 50px;
+        width: 50px;
+        grid-row: 2;
+        grid-column: 1;
+       align-items: start;
+       padding-left: 20px;
+    }
+    .svgdecor {
+        display: grid;
+        height: 40px;
+        width: 40px;
+        grid-row: 3;
+        grid-column: 1;
+        padding-left: 25px;
+
+    }
+
+    .linea1{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1/3;
+        border-bottom: 1px solid darkmagenta;
+    }
+
+
+    .linea2{
+        display: grid;
+        grid-row: 2;
+        grid-column: 1/3;
+        border-bottom: 1px solid darkmagenta;
+    }
+
+    .linea3{
+        display: grid;
+        grid-row: 3;
+        grid-column: 1/3;
+        border-bottom: 1px solid darkmagenta;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       justify-content: left;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+
+    a{
+        padding-left: 40px;
+    }

@@ -1,10 +1,15 @@
 .calculadora {
   width: 300px;
   height: 500px;
-  background-color: red;
+  background-color: rgb(94, 90, 116);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 2fr);
+  border: 1px solid grey;
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 2px rgb(190, 197, 197);
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /** 3/6 del 3 al 6 **/
@@ -14,4 +19,189 @@
   grid-row: 3/7;
   text-align: center;
   align-items: center;
+  margin: 1px;
+  background-color: rgb(240, 110, 110);
+  border-bottom-right-radius: 15%;
+}
+
+.boton_cero {
+  display: grid;
+  grid-column: 1/5;
+  grid-row: 1;
+  text-align: end;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.boton_suma {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: lightblue;
+  grid-column: 1;
+  grid-row: 2;
+  margin: 1px;
+}
+.boton_resta {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: lightblue;
+  grid-column: 2;
+  grid-row: 2;
+  margin: 1px;
+}
+.boton_multiplicacion {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: lightblue;
+  grid-column: 3;
+  grid-row: 2;
+  margin: 1px;
+}
+.boton_division {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: lightblue;
+  grid-column: 4;
+  grid-row: 2;
+  margin: 1px;
+}
+
+.num7 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 3;
+  background-color: azure;
+  margin: 1px;
+}
+
+.num8 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 3;
+  background-color: azure;
+  margin: 1px;
+}
+
+.num9 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 3;
+  grid-row: 3;
+  background-color: azure;
+  margin: 1px;
+}
+.num4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 4;
+  background-color: azure;
+  margin: 1px;
+}
+
+.num5 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 4;
+  background-color: azure;
+  margin: 1px;
+}
+
+.num6 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 3;
+  grid-row: 4;
+  background-color: azure;
+  margin: 1px;
+}
+.num1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 5;
+  background-color: azure;
+  margin: 1px;
+}
+
+.num2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 5;
+  background-color: azure;
+  margin: 1px;
+}
+.num3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 3;
+  grid-row: 5;
+  background-color: azure;
+  margin: 1px;
+}
+
+.num0 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 6;
+  background-color: azure;
+  margin: 1px;
+  border-bottom-left-radius: 22%;
+}
+
+.punto {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 6;
+  background-color: azure;
+  margin: 1px;
+}
+
+.ac {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  grid-column: 3;
+  grid-row: 6;
+  background-color: azure;
+  margin: 1px;
 }
