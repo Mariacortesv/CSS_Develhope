@@ -1,0 +1,17 @@
+.calculadora {
+  width: 300px;
+  height: 500px;
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+/** 3/6 del 3 al 6 **/
+.boton_igual {
+  display: grid;
+  grid-column: 4;
+  grid-row: 3/7;
+  text-align: center;
+  align-items: center;
+}
