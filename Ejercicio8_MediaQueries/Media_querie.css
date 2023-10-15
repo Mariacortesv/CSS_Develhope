@@ -1,0 +1,266 @@
+body{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1 {
+  width: 350px;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+padding-bottom: 20px;
+position: relative;
+
+}
+.card2{
+    width: 350px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  padding-bottom: 20px;
+  position: relative;
+  
+  }
+
+  .card3{
+    width: 350px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  padding-bottom: 20px;
+  position: relative;
+  
+  }
+
+.card1:hover{
+    box-shadow: 2px 2px 4px rgb(160, 161, 160);
+}
+
+.card2:hover{
+    box-shadow: 2px 2px 4px rgb(160, 161, 160);
+}
+
+.card3:hover{
+    box-shadow: 2px 2px 4px rgb(160, 161, 160);
+}
+
+.card1 .menu {
+    position: absolute;
+ top: -5px;
+    right: 10px;
+}
+
+.card2 .menu {
+    position: absolute;
+ top: -5px;
+    right: 10px;
+}
+.card3 .menu {
+    position: absolute;
+ top: -5px;
+    right: 10px;
+}
+
+.card1 .menu .more_info {
+    font-size: 50px;
+}
+
+.card2 .menu .more_info {
+    font-size: 50px;
+}
+
+.card3 .menu .more_info {
+    font-size: 50px;
+}
+
+
+.card1 .header {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.card2 .header {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .card3 .header {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+
+.card1 .header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card2 .header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .card3 .header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+.card1 .header .user_info {
+    text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.card2 .header .user_info {
+    text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card3 .header .user_info {
+    text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card1 .header .user_name {
+  display: flex;
+    color: #333;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+.card2 .header .user_name {
+    display: flex;
+      color: #333;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+  }
+
+  .card3 .header .user_name {
+    display: flex;
+      color: #333;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+  }
+
+.header .date {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  text-align: left;
+}
+
+.imagen_grande {
+  width: 100%;
+  height: auto;
+}
+
+.card1 .card2 .card3 .user_info .imagen_grande {
+  display: flex;
+    width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.iconos{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 10px;
+}
+.descripcion{
+    display: flex;
+    gap: 10px;
+    align-items:start;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+    position: relative;
+}
+
+
+h2{
+    font-size: 20px;
+}
+
+p {
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 12px;
+}
+
+.card1 .card2 .card3 .user_info .iconos {
+    display: flex;
+  gap: 10px;
+position: absolute;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* tablet */
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        font-size: 1.2rem;
+      }
+}
+
+/* Movil */
+@media (max-width: 375px) {
+  .container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+  }
