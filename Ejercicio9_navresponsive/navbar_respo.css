@@ -113,3 +113,54 @@ a:hover {
   background-color: transparent;
   border: 0.5px solid #ff6600;
 }
+
+
+
+/* pantalla */
+
+@media (max-width: 768px) {
+  .navbar {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+  .lista_navbar {
+      display: none;
+  }
+
+  .logo .fa-bars {
+    display: none;
+  }
+
+.lista_menu {
+      display: flex ;
+      flex-direction: column;
+      color: #fff;
+      align-items: start;
+      height: 100vh;
+      justify-content: space-between;
+      gap: 20px;
+    font-size: 3em;
+  }
+
+  .lista_menu > a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #ff6600;
+  }
+  
+
+  .search {
+    display: none;
+  }
+
+
+
+}
